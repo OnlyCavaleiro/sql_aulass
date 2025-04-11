@@ -26,7 +26,7 @@ delete from cursos
 where idcurso = '8' ;
 
 delete from cursos
-where ano = '2018';
+where ano = '2016';
 
 select * from cursos;
 
