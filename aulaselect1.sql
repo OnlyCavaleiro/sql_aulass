@@ -10,7 +10,7 @@ WHERE ano BETWEEN 2014 AND 2016
 ORDER BY ano DESC, nome ASC;
 
 SELECT idcurso, nome, ano FROM cursos
-WHERE ano IN ('2014', '2016')
+WHERE ano IN ('2014', '2018')
 ORDER BY nome;
 
 SELECT nome, carga, totalaulas FROM cursos
